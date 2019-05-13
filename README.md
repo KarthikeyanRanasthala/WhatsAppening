@@ -1,4 +1,4 @@
-# Whatsappening
+# WhatsAppening
 
 ## Overview
 
@@ -14,14 +14,14 @@ WhatsAppening tracks a user's Whatsapp activity using Selenium on WhatsApp Web.
 
 WhatsAppening is available on PyPI. You can install it through pip.
 ```
-    pip install whatsappening
+    pip install whatsappening-cli
 ```
 
 ## Usage
 
 Make sure you're executing it from the directory containing 'geckodriver'.
 ```
-    whatsappening
+    whatsappening-cli
 ```
 
 ## Development
