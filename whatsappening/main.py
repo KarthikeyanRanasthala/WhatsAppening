@@ -10,12 +10,12 @@ def csv(DT, Status):
         f.write(f'{DT.strftime("%x")},{DT.strftime("%X")},{Status}')
 
 def main():
-    print('Starting WhatsAppening v1.1.0, It can take a few seconds.')
+    print('Starting WhatsAppening v1.1.1, It can take a few seconds.')
     driver = webdriver.Firefox()
     driver.get('https://web.whatsapp.com')
     input('\nScan the QR code from Whatsapp Web & Open the contact which you want to track. \n\nPress Enter to continue...')
     while True:
-        WebDriverWait(driver, 43200).until(
+        WebDriverWait(driver, 86400).until(
             EC.visibility_of_element_located(
                 (By.XPATH, '//span[@title="online"]')
             )
@@ -23,7 +23,7 @@ def main():
         DT = datetime.datetime.now()
         print('\nOnline  : ' + DT.strftime('%X'))
         csv(DT, 'Online\n')
-        WebDriverWait(driver, 43200).until(
+        WebDriverWait(driver, 86400).until(
             EC.invisibility_of_element_located(
                 (By.XPATH, '//span[@title="online"]')
             )
