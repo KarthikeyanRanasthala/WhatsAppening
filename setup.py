@@ -8,7 +8,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name = 'whatsappening-cli',
-    version = '1.1.0',
+    version = '1.1.1',
     description = 'A WhatsApp activity tracker',
     long_description = long_description,
     long_description_content_type='text/markdown',
@@ -17,12 +17,13 @@ setup(
     classifiers = [
         'Development Status :: 5 - Production/Stable',
         'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
 
     ],
     keywords = 'whatsapp tracker tracking monitor monitoring',
     packages = find_packages(),
-    python_requires = '>= 3.5',
+    python_requires = '>= 3.6',
     install_requires = ['selenium'],
     entry_points = {
         'console_scripts': [
