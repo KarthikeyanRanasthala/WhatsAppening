@@ -1,3 +1,16 @@
+![](https://img.shields.io/github/license/KarthikeyanRanasthala/WhatsAppening.svg)
+![](https://img.shields.io/github/release/KarthikeyanRanasthala/WhatsAppening.svg)
+![](https://img.shields.io/github/downloads/KarthikeyanRanasthala/WhatsAppening/total.svg)
+![](https://img.shields.io/github/stars/KarthikeyanRanasthala/WhatsAppening.svg)
+![](https://img.shields.io/github/watchers/KarthikeyanRanasthala/WhatsAppening.svg)
+
+![](https://img.shields.io/pypi/pyversions/whatsappening-cli.svg)
+![](https://img.shields.io/pypi/v/whatsappening-cli.svg)
+![](https://img.shields.io/pypi/format/whatsappening-cli.svg)
+![](https://img.shields.io/pypi/status/whatsappening-cli.svg)
+![](https://img.shields.io/pypi/dd/whatsappening-cli.svg?label=pypi%20downloads)
+![](https://img.shields.io/librariesio/sourcerank/pypi/whatsappening-cli.svg)
+
 # WhatsAppening
 
 ## Overview
