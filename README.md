@@ -1,9 +1,4 @@
 ![](https://img.shields.io/github/license/KarthikeyanRanasthala/WhatsAppening.svg)
-![](https://img.shields.io/github/release/KarthikeyanRanasthala/WhatsAppening.svg)
-![](https://img.shields.io/github/downloads/KarthikeyanRanasthala/WhatsAppening/total.svg)
-![](https://img.shields.io/github/stars/KarthikeyanRanasthala/WhatsAppening.svg)
-![](https://img.shields.io/github/watchers/KarthikeyanRanasthala/WhatsAppening.svg)
-
 ![](https://img.shields.io/pypi/pyversions/whatsappening-cli.svg)
 ![](https://img.shields.io/pypi/v/whatsappening-cli.svg)
 ![](https://img.shields.io/pypi/format/whatsappening-cli.svg)
@@ -15,7 +10,9 @@
 
 ## Overview
 
-WhatsAppening tracks a user's Whatsapp activity using Selenium on WhatsApp Web.
+WhatsAppening tracks a user's Whatsapp activity using Selenium on WhatsApp Web. The tracked data will be displayed in the terminal, written to a CSV file & pushed to Firebase Realtime Database.
+
+[WhatsAppening-Firebase](https://www.github.com/KarthikeyanRanasthala/WhatsAppening-Firebase) contains necessary files to setup Firebase Hosting and Firebase Cloud Messaging for Realtime Push Notifications.
 
 ## Requirements
 
@@ -25,9 +22,14 @@ WhatsAppening tracks a user's Whatsapp activity using Selenium on WhatsApp Web.
 
 ## Installation
 
-WhatsAppening is available on PyPI. You can install it through pip.
+WhatsAppening is available on PyPI. You can install the latest version using pip.
 ```
     pip install whatsappening-cli
+```
+
+To Install the previous version without Firebase Realtime Database support.
+```
+    pip install whatsappening-cli==1.1.1
 ```
 
 ## Usage
