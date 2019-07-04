@@ -18,7 +18,7 @@ WhatsAppening tracks a user's Whatsapp activity using Selenium on WhatsApp Web. 
 
 - [Python 3](https://www.python.org/downloads)
 - [Firefox Browser](https://www.mozilla.org/firefox)
-- [geckodriver](https://github.com/mozilla/geckodriver/releases)
+- [geckodriver](https://github.com/mozilla/geckodriver/releases) (Will be downloaded automatically from v1.3.0+)
 
 ## Installation
 
@@ -34,10 +34,12 @@ To Install the previous version without Firebase Realtime Database support.
 
 ## Usage
 
-Make sure you're executing it from the directory containing 'geckodriver'.
+Make sure you're executing it from the directory containing 'FirebaseAdminSDK.json'.
 ```
     whatsappening-cli
 ```
+
+To use the previous versions (1.1.1 and below) without Firebase Realtime Database support, Make sure you're executing it from the directory containing 'geckodriver'.
 
 ## Development
 
